@@ -45,4 +45,4 @@ void thread_pool_shutdown_now(thread_pool_t *pool);
 int  thread_pool_active_threads(thread_pool_t *pool);
 int  thread_pool_pending_tasks(thread_pool_t *pool);
 
-#endif /* THREAD_POOL_H */
+#endif /* THREAD_POOL_H  */
