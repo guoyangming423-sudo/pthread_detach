@@ -282,7 +282,7 @@ void thread_pool_shutdown_now(thread_pool_t *pool)
     pool->shutdown = 1;
     pthread_mutex_unlock(&pool->pool_mutex);
 
-    queue_shutdown(&pool->queue, 1);  /* discard remaining tasks */
+    queue_shutdown(&pool->queue, 1);   /* discard remaining tasks */
 
     for (int i = 0; i < pool->running; i++)
         pthread_join(pool->threads[i], NULL);
