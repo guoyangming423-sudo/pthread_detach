@@ -1,4 +1,4 @@
-Lightweight C Thread Pool Documentation
+##Lightweight C Thread Pool Documentation
 Project Overview
 This is a pure C implementation of a thread pool based on the POSIX pthread library, specifically designed for embedded Linux systems. It provides simple and efficient multi-threaded task scheduling, solving the performance overhead of frequent thread creation/destruction and system resource exhaustion issues.
 The code is concise, has no third-party dependencies, minimal memory footprint, and excellent portability. It is ideal for resource-constrained embedded devices such as Luckfox-Pico-Ultra and Raspberry Pi.
