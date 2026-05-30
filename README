@@ -11,3 +11,5 @@ Core Features
 ✅ Automatic resource management: No memory leaks
 ✅ Classic .h + .c separation: Easy integration into any C/C++ project
 ✅ Embedded-optimized: Minimized memory usage and CPU overhead
+C 语言轻量级线程池
+基于 POSIX 线程 (pthread) 实现的轻量级、高性能线程池，适用于 Linux/Unix 环境。通过线程复用和任务队列机制，避免频繁创建 / 销毁线程的系统开销，实现高并发任务的高效调度。
